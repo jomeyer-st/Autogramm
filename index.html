@@ -9,14 +9,17 @@
 <body>
     
     <div class="layout">
-        <img src="autogramm karte.png" alt="Autogrammkarte" class="autogramm-image"  oncontextmenu="return false;">
+        <img src="autogramm karte.png" alt="Autogrammkarte" class="autogramm-image" oncontextmenu="return false;">
 
         <main class="container">
             <h1>Hol dir deine Autogrammkarte!</h1>
             <p>Trag hier deine Daten ein, damit ich dir eine Autogrammkarte schicken kann.</p>
 
-            
-            <form action="DEINE_WEB3FORMS_URL_HIER" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                
+                
+                <input type="hidden" name="access_key" value="39790068-e076-4bfa-99b9-9e9bc1987a4c">
+
                 <div class="form-group">
                     <label for="name">Dein Name / Stream-Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -37,6 +40,9 @@
                         <input type="text" id="city" name="city" required>
                     </div>
                 </div>
+
+                
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                 <button type="submit">Autogrammkarte bestellen :)</button>
 
