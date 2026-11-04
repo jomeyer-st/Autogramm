@@ -60,7 +60,26 @@ button {
     border-radius: 11px;
     background-color: #0d00ff;
     color: #fff;
+    text-align: center;
 }
+
+
+a.donate-button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 2px solid #0d00ff;
+    border-radius: 11px;
+    background-color: #0d00ff;
+    color: #ff0000;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Redaction 50', sans-serif;
+    font-weight: 700; 
+}
+
 
 img.autogramm-image {
     width: 350px;
